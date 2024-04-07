@@ -48,7 +48,7 @@ This Telegram bot template provides a foundation for creating powerful and inter
 ```
 
 ### Importing
-As you can see, each folder has an __init__.py file which is used to make the whole coding process easier. You can learn more from the official documentation: https://docs.python.org/3/tutorial/modules.html.
+As you can see, each folder has an `__init__.py` file which is used to make the whole coding process easier. You can learn more from the official documentation: https://docs.python.org/3/tutorial/modules.html.
 
 Don't forget to import everything you need there (classes, functions). For example, if you add a new class to Manager.py in the database folder (such as a custom class), be sure to import it into the `__init__.py` file.
 
