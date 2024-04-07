@@ -8,13 +8,15 @@ This Telegram bot template provides a foundation for creating powerful and inter
 
 # Table of contents
 - [Quick Start](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#Quick-Start)
-- [Customization](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#customization)
+- [Customization](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#-customization)
     - [Structure](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#structure)
     - [Importing](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#importing)
-    - [Running the bot](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#running-the-bot)
-- 
+    - [Running the bot](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#-running-the-bot)
+- [Acknowledgements](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#-acknowledgements)
+- [Contributing](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#-contributing)
+- [Licence](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#-licence)
 
-## Quick Start
+## 💻 Quick Start
 1. Clone the repository\
 `git clone https://github.com/anekobtw/telegram-bot-template.git`
 2. Install dependencies.\
@@ -67,14 +69,14 @@ class User:
 from database.Manager import User
 ```
 
-**somewhere in other file,**
+**Somewhere in other file**
 ```py
 from database import User
 
 user = User(1, 'Wednesday', 'Adams')  # creates an instance
 ```
 
-### 💻 Running the bot
+### Running the bot
 In order to run the bot, you should insert your bot token in `.env` file, and then run `main.py` file located in the root directory. In this file, the bot is defined in the asynchronous `run_bot()` function.
 
 ```py
