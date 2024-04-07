@@ -1,6 +1,6 @@
 # Telegram Bot Template
 ![version](https://img.shields.io/badge/Project_version-v1.0-blue)
-![aiogram](https://img.shields.io/badge/aiogram-v3.4.1-blue)
+![aiogram](https://img.shields.io/badge/aiogram-3.x-blue)
 ![licence](https://img.shields.io/badge/License-MIT-green)
 ![made with love](https://img.shields.io/badge/Made_with-Love-red)
 
