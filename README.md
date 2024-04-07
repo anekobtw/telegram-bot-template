@@ -18,7 +18,7 @@ This Telegram bot template provides a foundation for creating powerful and inter
 ## Customization
 - [Structure](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#structure)
 - [Importing](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#importing)
-- Running the bot
+- [Running the bot](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#running_the_bot)
 
 ### Structure 
 ```telegram-bot-template/
@@ -73,7 +73,8 @@ user = User(1, 'Wednesday', 'Adams')  # creates an instance
 ### Running the bot
 In order to run the bot, you should insert your bot token in `.env` file, and then run `main.py` file located in the root directory. In this file, the bot is defined in the asynchronous `run_bot()` function.
 
-```async def run_bot():
+```py
+async def run_bot():
     load_dotenv()
     TOKEN = os.getenv('TOKEN')
 
