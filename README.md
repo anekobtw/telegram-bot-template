@@ -13,7 +13,7 @@ This Telegram bot template provides a foundation for creating powerful and inter
 `pip install requirements.txt`
 3. Update `.env` file in the project root directory and paste your bot token obtained from [BotFather](https://t.me/BotFather).
 4. Customize any configuration settings or add additional functionality according to your requirements.
-5. If you experience any problem and can't find a solution to it below, feel free to DM me in telegram: [@anekobtw](https://t.me/anekobtw)
+5. If you experience any problem and can't find a solution to it below, feel free to open an issue or DM me in telegram: [@anekobtw](https://t.me/anekobtw)
 
 ## Customization
 - Structure
