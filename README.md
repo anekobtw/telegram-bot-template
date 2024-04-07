@@ -18,10 +18,6 @@ This Telegram bot template provides a foundation for creating powerful and inter
 ## Customization
 - Structure
 - Importing
-- Databases
-- Keyboards
-- Handling commands
-- Other
 
 ### Structure 
 ```telegram-bot-template/
@@ -64,6 +60,13 @@ class User:
 **_\_init__.py**
 ```py
 from database.Manager import User
+```
+
+If you want to use it in the other file in the code, simply type
+```py
+from database import User
+
+user = User(1, 'Wednesday', 'Adams')  # creates an instance
 ```
 
 ## Acknowledgements
