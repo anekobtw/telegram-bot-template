@@ -7,11 +7,11 @@
 This Telegram bot template provides a foundation for creating powerful and interactive bots using the [aiogram](https://github.com/aiogram/aiogram) library in Python.
 
 # Table of contents
-- [Quick Start](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#Quick-Start)
+- [Quick Start](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#-quick-start)
 - [Customization](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#-customization)
     - [Structure](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#structure)
     - [Importing](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#importing)
-    - [Running the bot](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#-running-the-bot)
+    - [Running the bot](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#running-the-bot)
 - [Acknowledgements](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#-acknowledgements)
 - [Contributing](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#-contributing)
 - [Licence](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#-licence)
