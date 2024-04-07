@@ -6,7 +6,7 @@
 
 This Telegram bot template provides a foundation for creating powerful and interactive bots using the [aiogram](https://github.com/aiogram/aiogram) library in Python.
 
-# Installation
+## Installation
 1. Clone the repository\
 `git clone https://github.com/anekobtw/telegram-bot-template.git`
 2. Install dependencies.\
@@ -15,6 +15,37 @@ This Telegram bot template provides a foundation for creating powerful and inter
 4. Customize any configuration settings or add additional functionality according to your requirements.
 5. If you experience any problem and can't find a solution to it below, feel free to DM me in telegram: [@anekobtw](https://t.me/anekobtw)
 
+## Customization
+- Structure
+- Importing
+- Databases
+- Keyboards
+- Handling commands
+- Other
+
+### Structure 
+```telegram-bot-template/
+└───bot
+    │   .env
+    │   main.py
+    │   requirements.txt
+    │
+    ├───database
+    │       Manager.py
+    │       __init__.py
+    │
+    ├───handlers
+    │       common.py
+    │       __init__.py
+    │
+    ├───keyboards
+    │       keyboards.py
+    │       __init__.py
+    │
+    └───misc
+            misc.py
+            __init__.py
+```
 ## Acknowledgements
 - [aiogram](https://github.com/aiogram/aiogram) - A modern and fully asynchronous framework for Telegram Bot API written in Python using asyncio\
 - [dotenv](https://github.com/theskumar/python-dotenv) - Reads key-value pairs from a .env file and can set them as environment variables. It helps in developing applications following the 12-factor principles.
