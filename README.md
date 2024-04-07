@@ -18,9 +18,9 @@ This Telegram bot template provides a foundation for creating powerful and inter
 ## Customization
 - [Structure](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#structure)
 - [Importing](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#importing)
-- [Running the bot](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#running_the_bot)
+- [Running the bot](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#running-the-bot)
 
-### Structure 
+### Structure
 ```telegram-bot-template/
 └───bot
     │   .env
