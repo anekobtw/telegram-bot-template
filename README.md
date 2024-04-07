@@ -10,7 +10,7 @@ This Telegram bot template provides a foundation for creating powerful and inter
 1. Clone the repository\
 `git clone https://github.com/anekobtw/telegram-bot-template.git`
 2. Install dependencies.\
-`pip install requirements.txt`
+`pip install -r requirements.txt`
 3. Update `.env` file in the project root directory and paste your bot token obtained from [BotFather](https://t.me/BotFather).
 4. Customize any configuration settings or add additional functionality according to your requirements.
 5. If you experience any problem and can't find a solution to it below, feel free to open an issue or DM me in telegram: [@anekobtw](https://t.me/anekobtw)
