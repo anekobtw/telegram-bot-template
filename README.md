@@ -55,8 +55,10 @@ Don't forget to import everything you need there (classes, functions). For examp
 **Manager.py**
 ```py
 class User:
-    def __init__() -> None:
-        pass
+    def __init__(self, id: int, name: str, surname: str) -> None:
+        self.id = id
+        self.name = name
+        self.surname = surname
 ```
 
 **_\_init__.py**
