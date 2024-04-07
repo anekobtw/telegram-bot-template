@@ -104,5 +104,5 @@ Let me quickly explain the above code. First, it downloads the token from the en
 Contributions are always welcome! If you have any suggestions, feature requests, or bug reports, please feel free to open an issue on the [GitHub repository](https://github.com/anekobtw/telegram-bot-template).
 
 ## 📝 Licence
-Copyright © 2024 anekobtw.
+Copyright © 2024 anekobtw.\
 This project is [MIT](https://github.com/anekobtw/telegram-bot-template/blob/main/LICENSE) licensed.
