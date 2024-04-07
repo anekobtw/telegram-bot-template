@@ -16,8 +16,8 @@ This Telegram bot template provides a foundation for creating powerful and inter
 5. If you experience any problem and can't find a solution to it below, feel free to open an issue or DM me in telegram: [@anekobtw](https://t.me/anekobtw)
 
 ## Customization
-- Structure
-- Importing
+- [Structure](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#structure)
+- [Importing](https://github.com/anekobtw/telegram-bot-template?tab=readme-ov-file#importing)
 
 ### Structure 
 ```telegram-bot-template/
