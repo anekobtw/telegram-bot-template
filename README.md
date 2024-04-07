@@ -46,6 +46,24 @@ This Telegram bot template provides a foundation for creating powerful and inter
             misc.py
             __init__.py
 ```
+
+### Importing
+As you can see, each folder has an __init__.py file which is used to make the whole coding process easier. You can learn more from the official documentation: https://docs.python.org/3/tutorial/modules.html.
+
+Don't forget to import everything you need there (classes, functions). For example, if you add a new class to Manager.py in the database folder (such as a custom class), be sure to import it into the `__init__.py` file.
+
+**Manager.py**
+```py
+class User:
+    def __init__() -> None:
+        pass
+```
+
+**_\_init__.py**
+```py
+from database.Manager import User
+```
+
 ## Acknowledgements
 - [aiogram](https://github.com/aiogram/aiogram) - A modern and fully asynchronous framework for Telegram Bot API written in Python using asyncio\
 - [dotenv](https://github.com/theskumar/python-dotenv) - Reads key-value pairs from a .env file and can set them as environment variables. It helps in developing applications following the 12-factor principles.
