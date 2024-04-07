@@ -91,7 +91,7 @@ async def run_bot():
 Let me quickly explain the above code. First, it downloads the token from the environment. Then, logging is configured, and only then a bot instance is created. I've also written default properties, but if you don't use HTML as your default parsing mode, just remove it. In case you use aiogram states, a memory store is also created. Finally, it simply imports the router from the handlers folder, which processes all the commands, and starts working.
 
 ## Acknowledgements
-- [aiogram](https://github.com/aiogram/aiogram) - A modern and fully asynchronous framework for Telegram Bot API written in Python using asyncio\
+- [aiogram](https://github.com/aiogram/aiogram) - A modern and fully asynchronous framework for Telegram Bot API written in Python using asyncio
 - [dotenv](https://github.com/theskumar/python-dotenv) - Reads key-value pairs from a .env file and can set them as environment variables. It helps in developing applications following the 12-factor principles.
 
 ## Contributing
