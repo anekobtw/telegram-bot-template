@@ -82,11 +82,15 @@ In order to run the bot, you should insert your bot token in `.env` file, and th
 ```py
 async def run_bot():
     load_dotenv()
-    TOKEN = os.getenv('TOKEN')
+    TOKEN = os.getenv("TOKEN")
 
-    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', filename='log.txt')
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+        filename="log.txt",
+    )
 
-    bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode='HTML'))  # I just like 'HTML' parse mode, you can use another one
+    bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode="HTML"))  # I just like 'HTML' parse mode, you can use another one
     storage = MemoryStorage()
     dp = Dispatcher(storage=storage)
     dp.include_router(common.router)
