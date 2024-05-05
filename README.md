@@ -25,7 +25,7 @@ This Telegram bot template provides a foundation for creating powerful and inter
 4. Customize any configuration settings or add additional functionality according to your requirements.
 5. If you experience any problem and can't find a solution to it below, feel free to open an issue or DM me in telegram: [@anekobtw](https://t.me/anekobtw)
 
-## ✨ Customization
+## Customization
 ### Structure
 ```telegram-bot-template/
 └───bot
@@ -100,13 +100,13 @@ async def run_bot():
 
 Let me quickly explain the above code. First, it downloads the token from the environment. Then, logging is configured, and only then a bot instance is created. I've also written default properties, but if you don't use HTML as your default parsing mode, just remove it. In case you use aiogram states, a memory store is also created. Finally, it simply imports the router from the handlers folder, which processes all the commands, and starts working.
  
-## 🙏 Acknowledgements
+## Acknowledgements
 - [aiogram](https://github.com/aiogram/aiogram) - A modern and fully asynchronous framework for Telegram Bot API written in Python using asyncio
 - [dotenv](https://github.com/theskumar/python-dotenv) - Reads key-value pairs from a .env file and can set them as environment variables. It helps in developing applications following the 12-factor principles.
 
-## ⚙ Contributing
+## Contributing
 Contributions are always welcome! If you have any suggestions, feature requests, or bug reports, please feel free to open an issue on the [GitHub repository](https://github.com/anekobtw/telegram-bot-template).
 
-## 📝 Licence
+## Licence
 Copyright © 2024 anekobtw.\
 This project is [MIT](https://github.com/anekobtw/telegram-bot-template/blob/main/LICENSE) licensed.
