@@ -7,7 +7,7 @@
  ![licence](https://img.shields.io/badge/License-MIT-green)
  ![made with love](https://img.shields.io/badge/Made_with-Love-red)
 
-<p>This Telegram bot template provides a foundation for creating powerful and interactive bots using the [aiogram](https://github.com/aiogram/aiogram) library in Python.</p>
+<p>This Telegram bot template provides a foundation for creating powerful and interactive bots using the aiogram library in Python.</p>
 
 </div>
 
