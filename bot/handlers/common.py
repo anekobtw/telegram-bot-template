@@ -2,10 +2,8 @@
 
 from aiogram import F, Router, types
 from aiogram.filters import Command
-
 from keyboards import get_start_kb
-
-router = Router()
+from main import router
 
 
 # Simple start command
@@ -16,6 +14,7 @@ async def start_command_handler(message: types.Message) -> None:
 
 
 # Let's try to process the message from the buttons
+# Keep in mind that I'm checking the text on the button, but it's advisable to check the F.data of a button
 @router.message(F.text.in_(["Example 1", "Example 2"]))
 async def example_row1_handler(message: types.Message) -> None:
     await message.answer(text="You pressed a button in the first row.")

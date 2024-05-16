@@ -5,12 +5,12 @@ import asyncio
 import logging
 import os
 
-from aiogram import Bot, Dispatcher
+from aiogram import Bot, Dispatcher, Router
 from aiogram.client.bot import DefaultBotProperties
 from aiogram.fsm.storage.memory import MemoryStorage
 from dotenv import load_dotenv
 
-from handlers import common
+router = Router()
 
 
 async def run_bot():
@@ -23,10 +23,11 @@ async def run_bot():
         filename="log.txt",
     )
 
-    bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode="HTML"))  # I just like 'HTML' parse mode, you can use another one
+    # I just like 'HTML' parse mode, you don't have to use it
+    bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode="HTML"))
     storage = MemoryStorage()
     dp = Dispatcher(storage=storage)
-    dp.include_router(common.router)
+    dp.include_router(router)
 
     await dp.start_polling(bot)
 
