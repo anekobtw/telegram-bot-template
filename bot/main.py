@@ -10,7 +10,7 @@ from aiogram.client.bot import DefaultBotProperties
 from aiogram.fsm.storage.memory import MemoryStorage
 from dotenv import load_dotenv
 
-router = Router()
+from handlers import common
 
 
 async def run_bot():
@@ -27,7 +27,7 @@ async def run_bot():
     bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode="HTML"))
     storage = MemoryStorage()
     dp = Dispatcher(storage=storage)
-    dp.include_router(router)
+    dp.include_router(common.router)
 
     await dp.start_polling(bot)
 

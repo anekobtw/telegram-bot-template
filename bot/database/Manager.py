@@ -35,7 +35,9 @@ class UsersManager(DBManager):
         super().__init__("databases/users.db", table_schema)
 
     def create_user(self, username: str, password: str) -> None:
-        self.execute_query("INSERT INTO users(username, password) VALUES (?, ?)", (username, password))
+        self.execute_query(
+            "INSERT INTO users(username, password) VALUES (?, ?)", (username, password)
+        )
 
     def delete_user(self, user_id: int) -> None:
         self.execute_query("DELETE FROM users WHERE user_id = ?", (user_id,))
@@ -44,4 +46,6 @@ class UsersManager(DBManager):
         return self.fetch_all("SELECT * FROM users WHERE username = ?", (username,))
 
     def get_user_info(self, user_id: int) -> list:
-        return self.fetch_one("SELECT * FROM users WHERE user_id = ? LIMIT 1", (user_id,))
+        return self.fetch_one(
+            "SELECT * FROM users WHERE user_id = ? LIMIT 1", (user_id,)
+        )
