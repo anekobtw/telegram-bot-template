@@ -46,6 +46,4 @@ class UsersManager(DBManager):
         return self.fetch_all("SELECT * FROM users WHERE username = ?", (username,))
 
     def get_user_info(self, user_id: int) -> list:
-        return self.fetch_one(
-            "SELECT * FROM users WHERE user_id = ? LIMIT 1", (user_id,)
-        )
+        return self.fetch_one("SELECT * FROM users WHERE user_id = ? LIMIT 1", (user_id,))

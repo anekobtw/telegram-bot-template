@@ -4,13 +4,16 @@
 import asyncio
 import logging
 import os
+import time
 
-from aiogram import Bot, Dispatcher, Router
+from aiogram import Bot, Dispatcher
 from aiogram.client.bot import DefaultBotProperties
 from aiogram.fsm.storage.memory import MemoryStorage
 from dotenv import load_dotenv
 
-from handlers import common
+from handlers.common import router
+
+start_time = time.time()
 
 
 async def run_bot():
@@ -27,7 +30,7 @@ async def run_bot():
     bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode="HTML"))
     storage = MemoryStorage()
     dp = Dispatcher(storage=storage)
-    dp.include_router(common.router)
+    dp.include_router(router)
 
     await dp.start_polling(bot)
 
