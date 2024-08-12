@@ -1,4 +1,4 @@
-# Write function handelrs here, examples are provided below
+# Write function handlers here, examples are provided below
 
 from aiogram import F, Router, types
 from aiogram.filters import Command

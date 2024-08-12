@@ -1,1 +1,3 @@
-from database.Manager import User, UserManager
+from database.Manager import UsersManager
+
+__all__ = ["UsersManager"]
