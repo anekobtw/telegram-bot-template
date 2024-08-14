@@ -20,7 +20,7 @@ Go to the project directory
 ```
 $ cd bot
 ```
-Install dependencies.\
+Install dependencies.
 ```
 $ pip install -r requirements.txt
 ```
