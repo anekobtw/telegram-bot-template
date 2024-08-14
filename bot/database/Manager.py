@@ -35,9 +35,7 @@ class UsersManager(DBManager):
         super().__init__("databases/users.db", table_schema)
 
     def create_user(self, username: str, password: str) -> None:
-        self.execute_query(
-            "INSERT INTO users(username, password) VALUES (?, ?)", (username, password)
-        )
+        self.execute_query("INSERT INTO users(username, password) VALUES (?, ?)", (username, password))
 
     def delete_user(self, user_id: int) -> None:
         self.execute_query("DELETE FROM users WHERE user_id = ?", (user_id,))
