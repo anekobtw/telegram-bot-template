@@ -23,7 +23,7 @@ async def run_bot():
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-        filename="log.txt",
+        # filename="log.txt",           if you want, you can save everything in a file, instead of printing it to the console
     )
 
     # I just like 'HTML' parse mode, you don't have to use it
