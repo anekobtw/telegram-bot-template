@@ -12,7 +12,7 @@
 </div>
 
 ## Quick Start
-Clone the repository\
+Clone the repository
 ```
 $ git clone https://github.com/anekobtw/telegram-bot-template.git
 ```
