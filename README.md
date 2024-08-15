@@ -12,26 +12,32 @@
 </div>
 
 ## Quick Start
-Clone the repository
+- Clone the repository
 ```
 $ git clone https://github.com/anekobtw/telegram-bot-template.git
 ```
-Go to the project directory
+- Go to the project directory
 ```
 $ cd bot
 ```
-Install dependencies.
+- Install dependencies.
 ```
 $ pip install -r requirements.txt
 ```
-Create `.env` file.
-
-Customize any configuration settings or add additional functionality according to your requirements.
-
-Run the bot.
-```
-$ python main.py
-```
+- Create `.env` file.
+- Customize any configuration settings or add additional functionality according to your requirements.
+- Run the bot.
+    - Using terminal
+         ```
+         $ python main.py
+         ```
+    - Using docker
+         ```
+         docker build --pull --rm -f "bot\Dockerfile" -t telegrambottemplate:latest "bot"
+         ```
+         ```
+         docker compose up --build
+         ```
 
 ## Environment Variables
 To run this project, you will need to add the following environment variables to your `.env` file
