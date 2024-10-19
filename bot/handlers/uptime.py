@@ -1,10 +1,11 @@
 import time
 
-from aiogram import F, types
+from aiogram import F, types, Router
 from aiogram.filters import Command
-from common import router
 
 from main import start_time
+
+router = Router()
 
 
 @router.message(F.text, Command("uptime"))
